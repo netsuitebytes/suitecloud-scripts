@@ -1,0 +1,16 @@
+{
+  "name": "suitecloud-scripts",
+  "version": "1.0.0",
+  "description": "Node scripts for automated pull of SuiteScript files and metadata from NetSuite via SuiteCloud CLI",
+  "scripts": {
+    "pull": "node scripts/pull-netsuite.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netsuitebytes/suitecloud-scripts.git"
+  }
+}
